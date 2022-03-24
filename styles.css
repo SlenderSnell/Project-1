@@ -1,6 +1,5 @@
 /* ### DEFAULTS ### */
 
-/* Home Page */
 nav {
     display: block;
     width: 100%;
@@ -22,6 +21,8 @@ ul.header li a {
     text-decoration: none;
     color: white;
 }
+
+/* Home Page */
 
 section.companyName {
     width: 100%;
@@ -93,4 +94,50 @@ section.buttonTable table {
     text-decoration: none;
     color: black;
     font-family: Bungee;
+}
+
+/* Catalogue */
+
+header.title h1 {
+    font-family: Bungee;
+    font-size: 30pt;
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+section.weapons {
+    width: 98.%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    padding: 5px 20px;
+}
+
+section.weapons h2 {
+    text-align: center;
+    font-family: Bungee;
+    margin: 3px;
+    text-shadow: 0px 0px 4px black;
+}
+
+section.weapons table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.weapons table td {
+    padding: 5px 50px;
+}
+
+section.weapons img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+section.weapons p {
+    float: left;
+    line-height: 3px;
+    padding-left: 5px;
 }
