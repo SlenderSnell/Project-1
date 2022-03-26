@@ -88,6 +88,8 @@ section.buttonTable table {
     text-align: center;
     background-color: white;
     margin: 10px 50px;
+    border: 5px solid black;
+    border-radius: 5px
 }
 
 .button a {
@@ -141,4 +143,9 @@ section.weapons p {
     float: left;
     line-height: 3px;
     padding-left: 5px;
+}
+
+table.clickable {
+    margin-left: auto;
+    margin-right: auto;
 }
