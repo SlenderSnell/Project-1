@@ -149,3 +149,15 @@ table.clickable {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Order */
+
+section.form {
+    width: 40%;
+    float: left;
+}
+
+section.desc {
+    width: 40%;
+    float: right;
+}
