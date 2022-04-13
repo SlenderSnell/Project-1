@@ -186,7 +186,7 @@ table.clickable {
 
 section.form {
     width: 32%;
-    height: 350px;
+    height: 360px;
     float: left;
     color: white;
     background-color: darkslategray;
@@ -211,7 +211,7 @@ section.form input, select {
 
 section.desc {
     width: 32%;
-    height: 350px;
+    height: 360px;
     float: right;
     color: white;
     background-color: darkslategray;
@@ -223,3 +223,83 @@ section.desc h1 {
     text-decoration: underline;
     text-align: center;
 }
+
+/* Carousel */
+
+.carousel {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.carousel__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel__track-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel__button--right {
+    left: 299px;
+}
+
+.carousel__button--left {
+    left: -25px;
+}
+
+.carousel__button img {
+    width: 15px;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 12px;
+    height: 13px;
+    background: rgba(58, 62, 116, 0.5);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel__indicator.current-slide {
+    background: rgba(58, 62, 116, 0.95);
+}
+
+.is-hidden {display: none;}
